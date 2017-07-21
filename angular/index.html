@@ -14,7 +14,7 @@
   <body>
     <div  ng-controller="sample">
       <div ng-if="colorData" ng-repeat="color in colorData">
-          <div  ng-style="{'background-color':color.color, 'color': '#ffffff', 'text-align':'center', 'height':'auto'}">
+          <div class="testDIV"  ng-style="{'background-color':color.color, 'color': '#ffffff', 'text-align':'center', 'height':'auto'}">
             <h2>{{color.text}}</h2>
           </div><hr>
     </div>
