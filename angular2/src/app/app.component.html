@@ -2,8 +2,9 @@
   <div>
     <!-- <button (click)="loadUser()">Load</button> -->
     <div *ngFor="let item of color.data; let i = index" [attr.data-index]="i">
-        <div  [ngStyle]="{'background-color':item.color, 'color': '#ffffff', 'text-align':'center', 'height':'35px'}">
-          {{ item.color }}
+        <div  [ngStyle]="{'background-color':item.color, 'color': '#ffffff', 'text-align':'center', 'height':'auto'}">
+          <h2>{{ item.text }}</h2>
         </div>
+        <hr>
   </div>
   </div>

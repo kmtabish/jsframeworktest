@@ -1,0 +1,7 @@
+<main class="main-content" >
+    <div  v-for="item in json">
+        <div v-bind:style="{backgroundColor: item.color, color:'#ffffff'}">
+          <h2  v-cloak>{{item.text}}</h2>
+          <hr>
+        </div> </div>
+</main>
